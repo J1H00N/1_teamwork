@@ -1,4 +1,27 @@
 /*이곳은 css 편집*/
+@font-face{
+	font-family: 'KoPubDotumMedium.ttf';
+	src: url(font/KoPubDotumMedium.ttf) format('truetype');
+}
+
+section {
+	padding: 150px;
+}
+
+img {
+	border-style: none;
+	vertical-align: middle;
+}
+
+.rounded-circle{
+	border-radius: 50%;
+}
+
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+}
+
 footer {
   text-align: center; }
 
@@ -6,31 +29,6 @@ footer {
 	padding: 20px 0;
 }
 
-.banner-image{
-	vertical-align: middle;
-	min-height: 100%;
-	width: 100%;
-}
-
-.div-banner{
-	display: block;
-}
-
-.banner{
-	width: 100%;
-	height: 100%;
-	min-height: 100%;
-	position: relative;
-	color: white;
-}
-
-.banner-caption{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	z-index: 2;
-
-}
 
 section h2.section-heading{
 	font-size:40px;
@@ -231,4 +229,40 @@ section h3.section-subheading{
 	.timeline>li.timeline-inverted>.timeline-panel{
 		padding:0 100px 20px 20px
 	}
+}
+
+h4.subheading {
+      text-transform: none; }
+
+
+.h4,h4{
+	font-size:1.5rem
+}
+
+p{
+	line-height: 1.75;
+	margin-top: 0;
+}
+
+section h4.section-subheading{
+	font-family:"KoPubDotumMedium","Helvetica Neue",Helvetica,Arial,sans-serif
+	;font-style:italic
+}
+
+h4 {
+	display: block;
+	-webkit-margin-before: 1.33em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-start: 0px;
+	font font-weight: bold;
+}
+
+.btn-primary,
+.btn-xl,h1,h2,h3,h4,h5,h6{
+	font-weight:700
+}
+
+body {
+	font-family:"KoPubDotumMedium";
+	font-size: 16px;
 }
