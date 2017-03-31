@@ -12,6 +12,7 @@ html {
 body {
   margin: 0;
 }
+
 article,
 aside,
 details,
@@ -1077,12 +1078,10 @@ th {
           box-sizing: border-box;
 }
 html {
-  font-size: 10px;
 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -1174,7 +1173,6 @@ hr {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6,
 .h1,
@@ -1276,7 +1274,7 @@ h3,
 }
 h4,
 .h4 {
-  font-size: 18px;
+  font-size: 1.5rem;
 }
 h5,
 .h5 {
