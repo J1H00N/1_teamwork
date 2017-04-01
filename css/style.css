@@ -1,4 +1,18 @@
 /*이곳은 css 편집*/
+/*myungsang's*/
+.left.carousel-control{margin-left:28%;}
+.right.carousel-control{margin-right:28%;}
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 44%;
+      margin: auto;
+      height:200px;
+  	  }
+div h1{text-align: center;}
+div h3{text-align: center;}
+div p{text-align: center;}
+/*myungsang's*/
+
 @font-face{
 	font-family: 'KoPubDotumMedium.ttf';
 	src: url(font/KoPubDotumMedium.ttf) format('truetype');
