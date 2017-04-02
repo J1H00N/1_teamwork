@@ -276,6 +276,9 @@ body {
 }
 .circle-icon {
 	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-bottom: 200px;
 	background-color: white;
+}
+.img-responsive {
+	margin: 0 auto;
 }
