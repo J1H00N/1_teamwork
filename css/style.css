@@ -1,4 +1,5 @@
 
+
 .left.carousel-control{
 	margin-left:28%;
 }
@@ -16,7 +17,6 @@
 
 div h1{text-align: center;}
 div h3{text-align: center;}
-div p{text-align: center;}
 /*myungsang's*/
 
 
@@ -29,7 +29,6 @@ div p{text-align: center;}
 /*이곳은 css 편집*/
 
 /*songjiyeon*/
-}
 
 .navbar-default{
 	position: relative;
@@ -37,6 +36,7 @@ div p{text-align: center;}
 }
 
 .nav-container {
+
 	position: fixed;
 	width: 5%;
 	float: left;
@@ -50,7 +50,7 @@ div p{text-align: center;}
 #logo {
 	height: 20px;
 	position: relative;
-	left: 50%;
+	left: 46.8%;
 	margin-top: 13px;
 }
 
