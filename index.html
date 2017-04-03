@@ -12,10 +12,54 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-
+  <script src="https://unpkg.com/tilt.js@1.1.13/dest/tilt.jquery.min.js"></script>
+ 
 
 </head>
 <body>
+<!--jiyeon-->
+  
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        </button>
+        <a class="navbar-brand" href="#">
+          <img
+           id=menu_logo src="image/top_menu_logo.png";>
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <img id=logo src="./image/top_menu_no5.png"/>
+        <ul class="nav navbar-nav navbar-right">
+            <a href="https://www.google.com">
+        <img id=search src="image/top_menu_search.png"/>
+        </a>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+  <div class="first_page">
+    <div class="perfume">
+      <div data-tilt>
+        <img id="perfume" src="image/main_no5_img.png" align="top">
+      </div>
+      <div class="space"></div>
+        <div class="name">
+        <img id="name" src="image/chanel_main_logo.png" >
+        </div>
+      </div> <!-- Tilt element -->
+    <script src="./js/vanilla-tilt.js/dist/vanilla-tilt.js"></script> <!-- Load Tilt.js library -->
+  </div>
+
+  <script src="./js/clipboard.min.js"></script>
+  <script src="./js/main.js"></script>
+<!--jiyeon-->
 
 <!--myungsang's-->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -30,14 +74,15 @@
   	<div class="carousel-inner" role="listbox">
     <div class="item active">
       <img src="image/slide2.png" alt="시트러스">
+      <div class="space"></div>
 	  <div>
-	  	<h1>:시트러스</h1>
+	  	<h1>: 시트러스</h1>
 	  </div>
 	  <div class="change">
 		<p><h3>활기차고 싱그러운향</h3></p>
       </div>
       <div class="change">
-      <p>
+      <p style="font-size: 1.9rem;">
         생기넘치는 시트러스가 알데하이드와 만나 레몬과<br>
         네롤리,오렌지 노트의 상쾌함을 한층 더해줍니다.
       </p>
@@ -48,8 +93,9 @@
 
     <div class="item">
       <img src="image/slide1.png" alt="일랑">
+      <div class="space"></div>
       <div>
-	  	<h1>:일랑일랑</h1>
+	  	<h1>: 일랑일랑</h1>
 	  </div>
 	  <div>
 		<p><h3>부드럽고 대담한 향</h3></p>
@@ -63,8 +109,9 @@
 
     <div class="item">
       <img src="image/slide3.png" alt="화이트 머스크">
+      <div class="space"></div>
       <div>
-	  	<h1>:시더와 화이트 머스크 노트</h1>
+	  	<h1>: 시더와 화이트 머스크</h1>
 	  </div>
 	  <div>
 		<h3>깨끗하고 달콤한 향</h3>
@@ -75,18 +122,20 @@
     </p>
 	  </div>
     </div>
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" style="margin-left: 28%; background-image: linear-gradient(to right, rgba(0, 0, 0, .0) 0%, rgba(0, 0, 0, .0001) 100%);">
     	<span class="left" aria-hidden="true"></span>
     	<span class="sr-only">Previous</span>
-  	</a> 
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+  	</a>
+
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" style="background-image: linear-gradient(to right, rgba(0, 0, 0, .0) 0%, rgba(0, 0, 0, .0001) 100%);">
     	<span class="right" aria-hidden="true"></span>
     	<span class="sr-only">Next</span>
     </a>
 	</div>
-
-  <div class="space2"></div>
 </div>
+  <div class="space2"></div>
+  <div class="space"></div>
 <!--myungsang's-->
 
 
@@ -168,8 +217,17 @@
             </div>
         </div>
   </section>
-  <div class="space2"></div>
 
+  <div class="emergency">
+    <div class="perfume">
+      <div data-tilt>
+        <img id="perfume" src="image/circle_logo.png" align="top">
+      </div>
+      <div class="space"></div>
+
+      </div> <!-- Tilt element -->
+    <script src="./js/vanilla-tilt.js/dist/vanilla-tilt.js"></script> <!-- Load Tilt.js library -->
+  </div>
 
   <footer style="background-color: black;">
     <div class="container">
@@ -177,7 +235,7 @@
         <div class="col-md-4">
           </div>
             <div class="col-md-4" style="color: white;">
-                <img src="image/footer_logo.png">
+                <img src="image/footer_logo.png" style="height: 75px, width: auto; align">
             </div>
           <div class="col-md-4">
         </div>
